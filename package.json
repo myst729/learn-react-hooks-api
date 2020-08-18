@@ -1,0 +1,29 @@
+{
+  "name": "reacted-hooked-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/**/*.test.js",
+    "start": "fastify start --port 7000 --log-level info app.js",
+    "dev": "fastify start --port 7000 --log-level info --watch --pretty-logs app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.2.1",
+    "fastify-autoload": "^3.0.8",
+    "fastify-cli": "^2.2.0",
+    "fastify-cors": "^4.1.0",
+    "fastify-mongodb": "^2.0.1",
+    "fastify-plugin": "^2.3.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "tap": "^14.10.8"
+  }
+}
